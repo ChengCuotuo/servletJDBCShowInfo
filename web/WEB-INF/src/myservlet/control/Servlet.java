@@ -60,6 +60,7 @@ public class Servlet extends HttpServlet {
 
         if (nu == null || nu.length() == 0) {
             fail(request, response, "添加数据失败，必须给出数据");
+            return;
         }
         //将提交的信息存储到数据库中
         float p = Float.parseFloat(pr);
