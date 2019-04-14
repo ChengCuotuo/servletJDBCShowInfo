@@ -104,7 +104,7 @@ public class Servlet extends HttpServlet {
                 }
                 i++;
             }
-            resultBean.setTableCord(tableRecord);
+            resultBean.setTableReord(tableRecord);
             //关闭连接
             conn.close();
             //重定向显示数据页面
