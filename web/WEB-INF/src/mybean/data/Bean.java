@@ -24,7 +24,7 @@ public class Bean {
         return tableRecord;
     }
 
-    public void setTableCord(String[][] tableRecord) {
+    public void setTableReord(String[][] tableRecord) {
         this.tableRecord = tableRecord;
     }
 }
